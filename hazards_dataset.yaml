@@ -1,0 +1,11 @@
+# YOLO-format custom hazard dataset. Layout:
+# datasets/hazards/images/{train,val}/*.jpg
+# datasets/hazards/labels/{train,val}/*.txt   (class cx cy w h, normalised)
+path: datasets/hazards
+train: images/train
+val: images/val
+names:
+  0: stairs
+  1: curb
+  2: pothole
+  3: open_drain
